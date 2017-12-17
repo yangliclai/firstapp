@@ -1,4 +1,4 @@
-#!/usr/bin/python3.6
+#!/usr/bin/python3.5
 # -*- coding: utf-8 -*-
 from flask import Flask
 
