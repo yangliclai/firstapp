@@ -1,5 +1,6 @@
-#!/usr/bin/python3.5
-# -*- coding: utf-8 -*-
+activate_this = '/var/www/firstapp/venv/bin/activate_this.py'
+execfile(activate_this, dict(__file__=activate_this))
+
 import sys
 sys.path.insert(0, "/var/www/firstapp")
-from hello import app as application
+from helloworld import app as application
